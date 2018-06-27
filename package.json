@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "no-kafka": "^3.2.10"
+  }
+}
