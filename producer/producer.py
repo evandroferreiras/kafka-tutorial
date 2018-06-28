@@ -11,7 +11,7 @@ producer = KafkaProducer(bootstrap_servers='localhost:29092',
 # Call the producer.send method with a producer-record
 print("Ctrl+c to Stop")
 while True:
-    producer.send('kafka-python-topic', {'values': random.randint(1,999)})    
-    #sleep(0.1)
+    producer.send('kafka-python-topic', random.randint(1,999))
+
 
 
